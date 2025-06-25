@@ -1,0 +1,46 @@
+# .gitignore for ASP.NET Core / .NET projects
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Publish output
+*.publish/
+
+# Azure Pipelines
+*.azure-pipelines.yml
+
+# Dev container
+.devcontainer/
+
+# Local environment
+.env
+.env.*
+
+# Others
+*.zip
+*.bak
+*.tmp
+
+# Ignore trash
+.trash/
